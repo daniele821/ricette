@@ -10,9 +10,9 @@ Lasagne al pesto
 ## INGREDIENTI
 
 - sfogliatelle          (pacchetto da 12)
-- pesto                 (`TODO: quantità`)
-- besciamella prefatta  (`TODO: quantità`)
-- parmiggiano reggiano  (`TODO: quantità`)
+- pesto                 (~150g)
+- besciamella prefatta  (~500g)
+- parmiggiano reggiano  (~100g)
 
 ## PROCEDURA
 

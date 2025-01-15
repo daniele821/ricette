@@ -11,6 +11,6 @@ for ricetta in "$DIR_RICETTE/"*.md; do
         echo -e "\e[1;31m- $ricetta_name: $TODOS $SYMBOL_WRONG\e[m"
         echo "$OUTPUT"
     else
-        echo -e "\e[1;32m- $ricetta_name: $TODOS $SYMBOL_CORRECT\e[m"
+        echo -e "\e[1;32m- $ricetta_name: 0 $SYMBOL_CORRECT\e[m"
     fi
 done
