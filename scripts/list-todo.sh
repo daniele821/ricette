@@ -1,9 +1,8 @@
 #!/bin/bash
 
-SCRIPT_PWD="$(realpath "${BASH_SOURCE[0]}")"
-SCRIPT_DIR="$(dirname "${SCRIPT_PWD}")"
+source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/envvars.sh"
 
-for ricetta in "${SCRIPT_DIR}"/../*.md; do
+for ricetta in "$DIR_RICETTE/"*.md; do
     ricetta="$(realpath "$ricetta")"
     OUTPUT="$(grep -n TODO "$ricetta")"
     if [[ -n $OUTPUT ]]; then
