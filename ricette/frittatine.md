@@ -1,6 +1,6 @@
 # NOME
 
-TODO: Nome ricetta
+Frittatine
 
 ## STRUMENTI NECESSARI
 
@@ -13,4 +13,3 @@ TODO: Nome ricetta
 ## PROCEDURA
 
 - TODO
-
