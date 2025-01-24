@@ -9,7 +9,7 @@ for ricetta in "$DIR_RICETTE/"*.md; do
     TODOS="$(echo "$OUTPUT" | wc -l)"
     if [[ -n $OUTPUT ]]; then
         echo -e "\e[1;31m- $ricetta_name: $TODOS $SYMBOL_WRONG\e[m"
-        echo "$OUTPUT"
+        bat --color=always "$ricetta"
     else
         echo -e "\e[1;32m- $ricetta_name: 0 $SYMBOL_CORRECT\e[m"
     fi
