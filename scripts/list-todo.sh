@@ -9,7 +9,7 @@ for ricetta in "$DIR_RICETTE/"*.md; do
     TODOS="$(echo "$OUTPUT" | wc -l)"
     if [[ -n $OUTPUT ]]; then
         echo -e "\e[1;31m- $ricetta_name: $TODOS $SYMBOL_WRONG\e[m"
-        bat --color=always "$ricetta"
+        bat "$ricetta" --color=always $(grep -n TODO "$ricetta" | cut -d: -f1 | while read -r line; do echo --highlight-line="$line"; done)
     else
         echo -e "\e[1;32m- $ricetta_name: 0 $SYMBOL_CORRECT\e[m"
     fi
