@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/envvars.sh"
+source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/.envvars.sh"
 
 for ricetta in "$DIR_RICETTE/"*.md; do
     ricetta="$(realpath "$ricetta")"

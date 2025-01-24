@@ -1,9 +1,9 @@
 #!/bin/bash
 
-##################################################################
-###### COPY AND PASTE THE FOLLOWING LINE TO USE THIS SCRIPT ######
-# source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/envvars.sh"
-##################################################################
+###################################################################
+###### COPY AND PASTE THE FOLLOWING LINE TO USE THIS SCRIPT! ######
+# source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/.envvars.sh"
+###################################################################
 
 # PATHS
 export DIR_ROOT="$(realpath "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/..")"

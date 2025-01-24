@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/envvars.sh"
+source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/.envvars.sh"
 
 function ask_name() {
     read -p "Write the name of the ricetta: " -er ricetta_name </dev/tty
