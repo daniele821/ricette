@@ -11,8 +11,8 @@ Frittatine
 
 ## INGREDIENTI
 
-- spinaci a cubetti     (3 o 4 cubetti)
-- uova                  (3 o 4 uova)
+- spinaci a cubetti     (3 cubetti)
+- uova                  (3 uova)
 - sale fino             (QB)
 - erbette (opzionale)
 
