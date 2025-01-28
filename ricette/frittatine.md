@@ -5,7 +5,7 @@ Frittatine
 ## STRUMENTI NECESSARI
 
 - tagliere
-- mezzaluna (opzionale)
+- mezzaluna
 - pentola
 - padella
 
@@ -19,7 +19,7 @@ Frittatine
 ## PROCEDURA
 
 - cucina gli spinaci nella padella con acqua bollente for una decina di minuti
-- trita (o tagliuzza se non hai la mezzaluna) gli spinaci
+- trita gli spinaci
 - sbatti le uova in una ciotola
 - butta gli spinaci nella ciotola
 - aggiungi un pizzico di sale, un po di parmiggiano (opzionalmente) e qualche erbetta (opzionalmente)
