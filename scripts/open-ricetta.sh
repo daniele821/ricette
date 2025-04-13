@@ -1,6 +1,5 @@
 #!/bin/bash
 
-VIEWER=""
 if command -v bat &>/dev/null; then
     VIEWER='bat'
 elif command -v batcat &>/dev/null; then
