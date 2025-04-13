@@ -4,6 +4,7 @@ source "$(dirname "$(realpath "${BASH_SOURCE[0]}")")/.envvars.sh"
 
 function ask_name() {
     read -p "Write the name of the ricetta: " -er ricetta_name </dev/tty
+    ricetta_name="${ricetta_name,,}"
     if [[ -z "$ricetta_name" ]]; then
         echo -e '\e[1;31mINVALID RICETTA NAME: nothing was written!\e[m' >/dev/tty
         return 1
